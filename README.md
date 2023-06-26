@@ -13,5 +13,7 @@ This repository contains the current state of the app! All contents must be cons
 - CAS is still limited/buggy (decimal representation instead of symbolic terms, e.g. "1.57..." instead of "pi/2"; or "1/2+1" instead of "3/2"); known bugs are marked by "work-in-progess"-texts
 - the context-sensitive keyboard for answers is too restricted in some cases (e.g. "pi" is missing, ...); especially polar form input is currently not available; known bugs are marked by "work-in-progess"-texts
 - the TeX-engine is inaccurate in spacing
-- the active input icon "<...>" (where the keyboard is bound to) needs a distinct color
 - scoring is not persisted
+
+## Recently fixed
+- [2023-06-26] the active input icon "<...>" (where the keyboard is bound to) needs a distinct color
