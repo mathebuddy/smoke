@@ -10,10 +10,7 @@ This repository contains the current state of the app! All contents must be cons
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
 - missing navigation button to (default) next level (at the end of the current level)
 - level overview graph does not show edges
-- CAS is still limited/buggy (decimal representation instead of symbolic terms, e.g. "1.57..." instead of "pi/2"; or "1/2+1" instead of "3/2"); known bugs are marked by "work-in-progess"-texts
-- the context-sensitive keyboard for answers is too restricted in some cases (e.g. "pi" is missing, ...); especially polar form input is currently not available; known bugs are marked by "work-in-progess"-texts
-- the TeX-engine is inaccurate in spacing
+- CAS is still limited/buggy (in some "circumstances": decimal representation instead of symbolic terms, e.g. "1.57..." instead of "pi/2"; or "1/2+1" instead of "3/2"); known bugs are marked by "work-in-progess"-texts
+- the context-sensitive keyboard for answers is too restricted in some cases; especially polar form input is currently not yet available; known bugs are marked by "work-in-progess"-texts
+- the TeX-engine is inaccurate in spacing. E.g. $\left{1,2,3\right}$ is really ugly...
 - scoring is not persisted
-
-## Recently fixed
-- [2023-06-26] the active input icon "<...>" (where the keyboard is bound to) needs a distinct color
