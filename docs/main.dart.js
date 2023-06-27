@@ -21894,13 +21894,14 @@ switch(m){case"#":case"$":m=a.b
 s=m.a
 if(s===B.M||s===B.R||s===B.m||s===B.bs||s===B.hy)r=m.mV()
 else r=s===B.S?m.mV():"("+m.k(0)+")"
+r+=" "
 break
 case".-":r=b?"\\left(":""
 r=r+"-"+A.oQ(a.c[0],!1)
 if(b)r+="\\right("
 break
 default:if(m==="set"){for(m=a.c,r="\\left\\{",q=0;q<m.length;++q){if(q>0)r+=","
-r+=A.oQ(m[q],!1)}r+="\\right\\}"}else if(m.length>2){r=(m==="sin"||m==="cos"||m==="tan"||m==="exp"||m==="sqrt"?"\\":"")+m
+r+=A.oQ(m[q],!1)}r+="\\right\\}"}else if(m.length>2){r=(m==="sin"||m==="cos"||m==="tan"||m==="exp"||m==="sqrt"?"\\":"")+"term.op "
 s=a.d
 if(s.length!==0){r+="<"
 for(q=0;q<s.length;++q){if(q>0)r+=","
