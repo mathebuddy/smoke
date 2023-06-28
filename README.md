@@ -18,7 +18,7 @@ This repository contains the current state of the app! All contents must be cons
 ## Fixed (only items since announcement on 27 June 20:00) -- newest first
 - show progress within level
 - show progress in level overview
-- keyboard: non-numeric chars/strings must be separated by a space (e.g. "isqrt(" -> "i sqrt(")
+- keyboard: non-numeric chars/strings must be separated (e.g. "isqrt(" -> "i * sqrt(")
 - invalid term inputs should be highlighted
 - permanent headers (top bar + level navigation bar) may consume too much vertical space on small screens
 - level oberview: icons should be arranged in 4 columns max
