@@ -7,6 +7,7 @@ This repository contains the current state of the app! All contents must be cons
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
 ## Known bugs / limitations / design issues --- newest first
+- keyboard input field: if the input is longer than the field, things become strange..
 - add button to repeat randomized exercises
 - leaving the current unit vanishes all progress
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
