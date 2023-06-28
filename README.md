@@ -17,6 +17,7 @@ This repository contains the current state of the app! All contents must be cons
 - scoring is not persisted
 
 ## Fixed (only items since announcement on 27 June 20:00) -- newest first
+2023-06-28
 - show progress within level
 - show progress in level overview
 - keyboard: non-numeric chars/strings must be separated (e.g. "isqrt(" -> "i * sqrt(")
