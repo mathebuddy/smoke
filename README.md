@@ -15,6 +15,8 @@ This repository contains the current state of the app! All contents must be cons
 - the context-sensitive keyboard for answers is too restricted in some cases; especially polar form input is currently not yet available; known bugs are marked by "work-in-progess"-texts
 - the TeX-engine is inaccurate in spacing. E.g. "\left{1,2,3\right}" is really ugly...
 - scoring is not persisted
+- chatbot (that asks randomized questions) is not yet present
+- "events" are not yet gamified
 
 ## Fixed (only items since announcement on 27 June 20:00) -- newest first
 2023-06-28
