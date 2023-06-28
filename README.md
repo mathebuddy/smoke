@@ -20,6 +20,7 @@ This repository contains the current state of the app! All contents must be cons
 
 ## Fixed (only items since announcement on 27 June 20:00) -- newest first
 2023-06-28
+- added a tutorial template
 - added button to repeat randomized exercises
 - progress within level is now shown
 - progress in level overview is now shown
