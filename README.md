@@ -1,6 +1,6 @@
 # Smoke Tests
 
-This repository contains the current state of the app! All contents must be considered UNTESTED. It should not be used by students for learining!!
+This repository contains the current state of the app! All contents must be considered UNTESTED. It should not be used by students for learning!!
 
 ## URL
 - [https://mathebuddy.github.io/smoke/](https://mathebuddy.github.io/smoke/)
