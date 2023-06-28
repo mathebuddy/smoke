@@ -7,6 +7,7 @@ This repository contains the current state of the app! All contents must be cons
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
 ## Known bugs / limitations / design issues --- newest first
+- add button to repeat randomized exercises
 - leaving the current unit vanishes all progress
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
 - missing navigation button to (default) next level (at the end of the current level)
