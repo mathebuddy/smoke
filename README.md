@@ -7,6 +7,7 @@ This repository contains the current state of the app! All contents must be cons
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
 ## Known bugs / limitations / design issues
+- permanent headers (top bar + level navigation bar) may consume too much verticl space on small screens
 - leaving the current unit vanishes all progress
 - level oberview: icons should be arranged in 4 columns max
 - keyboard: non-numeric chars/strings must be separated by a space (e.g. "isqrt(" -> "i sqrt(")
