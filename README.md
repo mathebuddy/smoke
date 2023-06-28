@@ -8,7 +8,6 @@ This repository contains the current state of the app! All contents must be cons
 
 ## Known bugs / limitations / design issues --- newest first
 - keyboard input field: if the input is longer than the field, things become strange..
-- add button to repeat randomized exercises
 - leaving the current unit vanishes all progress
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
 - missing navigation button to (default) next level (at the end of the current level)
@@ -19,11 +18,12 @@ This repository contains the current state of the app! All contents must be cons
 
 ## Fixed (only items since announcement on 27 June 20:00) -- newest first
 2023-06-28
-- show progress within level
-- show progress in level overview
-- keyboard: non-numeric chars/strings must be separated (e.g. "isqrt(" -> "i * sqrt(")
-- invalid term inputs should be highlighted
-- permanent headers (top bar + level navigation bar) may consume too much vertical space on small screens
-- level oberview: icons should be arranged in 4 columns max
-- level overview graph does not show edges
+- added button to repeat randomized exercises
+- progress within level is now shown
+- progress in level overview is now shown
+- keyboard: non-numeric chars/strings are now separated by "*" (e.g. "isqrt(" -> "i * sqrt(")
+- invalid term inputs are now marked by a border at top and bottom of the input field
+- permanent headers (top bar + level navigation bar) consumed too much vertical space on small screens
+- level oberview: icons are rearranged to fill 4 columns max
+- level overview graph now shows edges
 
