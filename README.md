@@ -6,7 +6,9 @@ This repository contains the current state of the app! All contents must be cons
 - [https://mathebuddy.github.io/smoke/](https://mathebuddy.github.io/smoke/)
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
-## Known bugs
+## Known bugs / limitations / design issues
+- level oberview: icons shold be arranged in 4 columns max
+- keyboard: non-numeric chars/strings must be separated by a space (e.g. "isqrt(" -> "i sqrt(")
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
 - missing navigation button to (default) next level (at the end of the current level)
 - level overview graph does not show edges
