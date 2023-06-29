@@ -7,7 +7,6 @@ This repository contains the current state of the app! All contents must be cons
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
 ## Known bugs / limitations / design issues
-- LL-parsing unary minus uses unary expression as operand instead of multiply-expression (e.g. "-x/y" is currently parsed to "(-x)/y" instead of "-(x/y)")
 - repeat-exercise button must draw instances that are distinct to prior ones
 - keyboard input field: if the input is longer than the field, things become strange..
 - leaving the current unit vanishes all progress
@@ -19,6 +18,10 @@ This repository contains the current state of the app! All contents must be cons
 - scoring is not persisted
 - chatbot (that asks randomized questions) is not yet present
 - "events" are not yet gamified
+
+## Implemented, but not yet visible online
+2023-06-29
+- LL-parsing unary minus used unary expression as operands instead of an multiply-expression (e.g. "-x/y" war wrongly parsed to "(-x)/y" instead of "-(x/y)")
 
 ## Fixed (only items since announcement on 27 June 20:00) - NEWEST FIRST
 2023-06-28
