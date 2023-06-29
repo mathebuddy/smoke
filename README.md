@@ -7,7 +7,6 @@ This repository contains the current state of the app! All contents must be cons
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
 ## Known bugs / limitations / design issues
-- bullet points in itemize lists are vertically too high
 - repeat-exercise button must draw instances that are distinct to prior ones
 - keyboard input field: if the input is longer than the field, things become strange..
 - leaving the current unit vanishes all progress
@@ -20,9 +19,8 @@ This repository contains the current state of the app! All contents must be cons
 - chatbot (that asks randomized questions) is not yet present
 - "events" are not yet gamified
 
-## Implemented, but not yet visible online
-
-(list is currently empty)
+## Implemented, but not yet online
+- bullet points in itemize lists are rendered vertically too high
 
 ## Fixed (only items since announcement on 27 June 20:00) - NEWEST FIRST
 
