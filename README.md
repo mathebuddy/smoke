@@ -20,11 +20,15 @@ This repository contains the current state of the app! All contents must be cons
 - "events" are not yet gamified
 
 ## Implemented, but not yet visible online
-2023-06-29
-- level overview: a lock symbol for non-accessible levels is shown. Currently, at least 50 % must be reached to pass a level. NOTE: Since the progress can not be persisted yet, also locked levels can be opened.
-- LL-parsing unary minus used unary expression as operands instead of an multiply-expression (e.g. "-x/y" war wrongly parsed to "(-x)/y" instead of "-(x/y)")
+
+(list is currently empty)
 
 ## Fixed (only items since announcement on 27 June 20:00) - NEWEST FIRST
+
+2023-06-29
+- level overview: a lock symbol for non-accessible levels is shown. Currently, at least 50 % must be reached to pass a level. NOTE: Since the progress can not be persisted yet, also locked levels can be opened.
+- LL-parsing of unary-minus wrongly used an unary expression as operand, instead of a multiply-expression (e.g. "-x/y" war wrongly parsed to "(-x)/y" instead of "-(x/y)")
+
 2023-06-28
 - added a tutorial template
 - added button to repeat randomized exercises
