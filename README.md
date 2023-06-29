@@ -6,7 +6,9 @@ This repository contains the current state of the app! All contents must be cons
 - [https://mathebuddy.github.io/smoke/](https://mathebuddy.github.io/smoke/)
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
-## Known bugs / limitations / design issues --- newest first
+## Known bugs / limitations / design issues
+- LL-parsing unary minus uses unary expression as operand instead of multiply-expression (e.g. "-x/y" is currently parsed to "(-x)/y" instead of "-(x/y)")
+- repeat-exercise button must draw instances that are distinct to prior ones
 - keyboard input field: if the input is longer than the field, things become strange..
 - leaving the current unit vanishes all progress
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
@@ -18,7 +20,7 @@ This repository contains the current state of the app! All contents must be cons
 - chatbot (that asks randomized questions) is not yet present
 - "events" are not yet gamified
 
-## Fixed (only items since announcement on 27 June 20:00) -- newest first
+## Fixed (only items since announcement on 27 June 20:00) - NEWEST FIRST
 2023-06-28
 - added a tutorial template
 - added button to repeat randomized exercises
