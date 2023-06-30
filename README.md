@@ -16,6 +16,8 @@ This repository contains the current state of the app! All contents must be cons
 
 ## Known bugs / limitations / design issues
 
+- open keyboard automatically, if there is only one exercise in the current view
+- automatically move to the next input field after pressing the "enter" key
 - repeat-exercise button must draw instances that are distinct to prior ones
 - keyboard input field: if the input is longer than the field, things become strange..
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
