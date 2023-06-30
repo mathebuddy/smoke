@@ -7,13 +7,8 @@ This repository contains the current state of the app! All contents must be cons
 - note that the test instance shows solutions and all individual levels on the start page for debugging purposes.
 
 ## Known bugs / limitations / design issues
-- buttons may not be understood well. TODO:   a) Exercises: remove border around "check-OK" after successful evaluation to indicate that this is not a clickable button   b) Add backward/forward buttons at the end of a level-page
-- keep scores when repeating an exercise!
-- remove icons in exercises, definitions, .. (since page icons are present anyway...)
-- option to enable special keyboards for certain exercises (e.g. if "^" is needed).
 - repeat-exercise button must draw instances that are distinct to prior ones
 - keyboard input field: if the input is longer than the field, things become strange..
-- leaving the current unit vanishes all progress
 - "-1-2-3" on keyboard is rendered as "1 + -2 + -3"
 - missing navigation button to (default) next level (at the end of the current level)
 - CAS is still limited/buggy (in some "circumstances": decimal representation instead of symbolic terms, e.g. "1.57..." instead of "pi/2"; or "1/2+1" instead of "3/2"); known bugs are marked by "work-in-progess"-texts
@@ -23,7 +18,12 @@ This repository contains the current state of the app! All contents must be cons
 - chatbot (that asks randomized questions) is not yet present
 - "events" are not yet gamified
 
-## Implemented, but not yet online
+## Implemented, but not yet online - NEWEST FIRST
+- buttons may not be understood well. TODO:   a) Exercises: remove border around "check-OK" after successful evaluation to indicate that this is not a clickable button   b) Add backward/forward buttons at the end of a level-page
+- keep scores when repeating an exercise!
+- remove icons in exercises, definitions, .. (since page icons are present anyway...)
+- option to enable special keyboards for certain exercises (e.g. if "^" is needed).
+- leaving the current unit vanishes all progress
 - bullet points in itemize lists are rendered vertically too high
 
 ## Fixed (only items since announcement on 27 June 20:00) - NEWEST FIRST
