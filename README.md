@@ -37,6 +37,7 @@ This repository contains the current state of the app! All contents must be cons
 
 2023-06-30
 
+- pressing on "DEBUG" (or "RELEAE") in the title bar switches between debug and release mode.
 - some buttons have confused testers.
   (a) The exercise passed/OK check now has no border and thus does not seem to be a clickable button any longer
   (b) Added backward/forward buttons at the end of a level-page
@@ -58,7 +59,7 @@ This repository contains the current state of the app! All contents must be cons
 - added button to repeat randomized exercises
 - progress within level is now shown
 - progress in level overview is now shown
-- keyboard: non-numeric chars/strings are now separated by "_" (e.g. "isqrt(" -> "i _ sqrt(")
+- keyboard: non-numeric chars/strings are now separated by "*" (e.g. "isqrt(" -> "i * sqrt(")
 - invalid term inputs are now marked by a border at top and bottom of the input field
 - permanent headers (top bar + level navigation bar) consumed too much vertical space on small screens
 - level oberview: icons are rearranged to fill 4 columns max
