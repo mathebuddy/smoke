@@ -37,7 +37,7 @@ This repository contains the current state of the app! All contents must be cons
 
 2023-06-30
 
-- pressing on "DEBUG" in the title bar switches to release mode, that does not show solutions etc...
+- pressing on "DEBUG" (or "RELEAE") in the title bar switches between debug and release mode.
 - some buttons have confused testers.
   (a) The exercise passed/OK check now has no border and thus does not seem to be a clickable button any longer
   (b) Added backward/forward buttons at the end of a level-page
