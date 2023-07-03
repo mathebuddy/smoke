@@ -19,7 +19,7 @@ This repository contains the current state of the app! All contents must be cons
 - larger exercises should be split up, with possiblity to evaluate parts of it
 - SMPL code "let phi = randZ(-1,1)*pi/rand({2,3,6});" is generated to TeX (e.g.) "\frac{-pi}{3}" instead of "-\frac{pi}{3}"
 - SMPL code should allow to include the students answer for evaluation
-- keyboards should automatically, if there is only one exercise in the current view
+- keyboards should open automatically, if there is only one exercise in the current view
 - automatically move to the next input field after pressing the "enter" key
 - repeat-exercise button must draw instances that are distinct to prior ones
 - keyboard input field: if the input is longer than the field, things become strange..
