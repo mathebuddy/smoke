@@ -19083,7 +19083,7 @@ UO:function UO(a){this.a=a},
 vq:function vq(a){this.a=a},
 FN:function FN(a,b){var _=this
 _.d=a
-_.e="assets/bundle-test.json"
+_.e="assets/bundle-complex.json"
 _.a=null
 _.b=b
 _.c=null},
@@ -65690,8 +65690,9 @@ A.UO.prototype={
 $1(a){return new A.kX(this.a,null)},
 $S:374}
 A.vq.prototype={
-aj(){B.c.v(window.location.href,"mathebuddy.github.io/mathebuddy/")
-return new A.FN(A.B(t.N,t.sN),B.n)}}
+aj(){var s=new A.FN(A.B(t.N,t.sN),B.n)
+if(B.c.v(window.location.href,"mathebuddy.github.io/mathebuddy/"))s.e="assets/bundle-test.json"
+return s}}
 A.FN.prototype={
 aK(){this.ba()
 this.tE()},
