@@ -39,6 +39,11 @@ This repository contains the current state of the app! All contents must be cons
 
 ## Fixed (only items since announcement on 27 June 20:00) - NEWEST FIRST
 
+2023-07-07
+
+- refactored complete app code
+- "Navigator" is now used to push/pop app pages
+
 2023-06-30
 
 - pressing on "DEBUG" (or "RELEAE") in the title bar switches between debug and release mode.
