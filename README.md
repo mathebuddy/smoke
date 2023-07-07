@@ -16,6 +16,7 @@ This repository contains the current state of the app! All contents must be cons
 
 ## Known bugs / limitations / design issues
 
+- level overview icons are still too small (max 3 columns or horizontal scrolling?)
 - larger exercises should be split up, with possiblity to evaluate parts of it
 - SMPL code "let phi = randZ(-1,1)*pi/rand({2,3,6});" is generated to TeX (e.g.) "\frac{-pi}{3}" instead of "-\frac{pi}{3}"
 - SMPL code should allow to include the students answer for evaluation
