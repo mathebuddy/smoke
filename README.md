@@ -18,7 +18,7 @@ This repository contains the current state of the app! All contents must be cons
 
 - level overview icons are still too small (max 3 columns or horizontal scrolling?)
 - larger exercises should be split up, with possiblity to evaluate parts of it
-- SMPL code "let phi = randZ(-1,1)*pi/rand({2,3,6});" is generated to TeX (e.g.) "\frac{-pi}{3}" instead of "-\frac{pi}{3}"
+- SMPL code "let phi = randZ(-1,1)\*pi/rand({2,3,6});" is generated to TeX (e.g.) "\frac{-pi}{3}" instead of "-\frac{pi}{3}"
 - SMPL code should allow to include the students answer for evaluation
 - keyboards should open automatically, if there is only one exercise in the current view
 - automatically move to the next input field after pressing the "enter" key
@@ -32,20 +32,21 @@ This repository contains the current state of the app! All contents must be cons
 - scoring is not persisted
 - chatbot (that asks randomized questions) is not yet present
 - "events" are not yet gamified
+- "\" in TeX strings is corrupted by MBL in some cases (e.g. "x \ dx"): must emit spaces by Lexer while parsing paragraphs
+- solutions hints: e.g. number of correct element in a set, or feedback which part solutions are correct in exercises with multiple input fields
+- compiler: output warning/error for duplicate labels
+- support for multiple course languages in MBL
+- simulator website: enable typing answers on host keyboard
+- support for "build-term: true" in exercises (front end)
 
 ## Implemented, but not yet online - NEWEST FIRST
 
 (list is currently empty)
 
-## Fixed (only items since announcement on 27 June 20:00) - NEWEST FIRST
-
-2023-07-07
+## Fixed - NEWEST FIRST
 
 - refactored complete app code
 - "Navigator" is now used to push/pop app pages
-
-2023-06-30
-
 - pressing on "DEBUG" (or "RELEAE") in the title bar switches between debug and release mode.
 - some buttons have confused testers.
   (a) The exercise passed/OK check now has no border and thus does not seem to be a clickable button any longer
@@ -56,20 +57,33 @@ This repository contains the current state of the app! All contents must be cons
 - added MBL syntax to force special keyboards (e.g. with "`^(`"-key).
 - leaving the current unit does not vanish all progress anymore
 - vertical alignment of bullet points in itemize lists has been improved
-
-2023-06-29
-
 - level overview: a lock symbol for non-accessible levels is shown. Currently, at least 50 % must be reached to pass a level. NOTE: Since the progress can not be persisted yet, also locked levels can be opened.
 - LL-parsing of unary-minus wrongly used an unary expression as operand, instead of a multiply-expression (e.g. "-x/y" war wrongly parsed to "(-x)/y" instead of "-(x/y)")
-
-2023-06-28
-
 - added a tutorial template
 - added button to repeat randomized exercises
 - progress within level is now shown
 - progress in level overview is now shown
-- keyboard: non-numeric chars/strings are now separated by "*" (e.g. "isqrt(" -> "i * sqrt(")
+- keyboard: non-numeric chars/strings are now separated by "_" (e.g. "isqrt(" -> "i _ sqrt(")
 - invalid term inputs are now marked by a border at top and bottom of the input field
 - permanent headers (top bar + level navigation bar) consumed too much vertical space on small screens
-- level oberview: icons are rearranged to fill 4 columns max
+- level overview: icons are rearranged to fill 4 columns max
 - level overview graph now shows edges
+- smpl doc: define sets as "{...}"; "set(..)" is forbidden now, ...
+- TeX: $e^{\frac12}$
+- output source row number for SMPL-errors
+- report error for exercises that have no instances
+- some figures are rendered too wide (overflow)
+- support for new glyphs in TeX: "?", "\Longleftrightarrow"
+- inline math support for the TeX engine
+- enable switch display/inline TeX support in compiler and app
+- support for "build-term: true" in exercises (back end)
+- references to equations, sections, ...
+- web application has blue (not red) background when loading
+- indexing bug for more than one multiple/single choice answer in one exercise
+- itemize/enumerate/... dot/number/letter is incorrectly aligned vertically
+- allow input field editing at arbitrary cursor positions
+- word wrapping for single/multiple choice answers
+- hide/opacity non-active exercises
+- keyboard key press animation
+- show current position of vertical scrolling
+- support for chapters (currently only levels are supported)
